@@ -65,7 +65,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.7.6</version>
                 <configuration>
-                    <mainClass>com.tka.ShopEaseBackendApplication</mainClass> <!-- ✅ Update if different -->
+                    <mainClass>com.tka.MoonLightApplication</mainClass> <!-- ✅ Update if different -->
                 </configuration>
             </plugin>
         </plugins>
