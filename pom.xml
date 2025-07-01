@@ -1,39 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project ...>
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.6</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath />
     </parent>
 
     <groupId>com.tka</groupId>
-    <artifactId>shopping_app</artifactId>
+    <artifactId>moonlight</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>shopping_app</name>
-    <description>Demo project for Spring Boot</description>
+    <name>moonlight</name>
+    <description>MoonLight Customer Management System</description>
 
     <properties>
         <java.version>17</java.version>
+        <start-class>com.tka.MoonLightApplication</start-class>
     </properties>
 
     <dependencies>
+        <!-- Your current dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- JSP rendering support -->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
         </dependency>
 
-        <!-- JSTL for JSP -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
@@ -65,7 +62,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.7.6</version>
                 <configuration>
-                    <mainClass>com.tka.MoonLightApplication</mainClass> <!-- ✅ Update if different -->
+                    <mainClass>com.tka.MoonLightApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
